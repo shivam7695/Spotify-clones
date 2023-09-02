@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Kanit&family=Lobster&family=Open+Sans&family=Poppins&family=Roboto+Mono&display=swap');
+*{
+    margin: 0;
+    padding:0;
+}
+
+
+html,body{
+   margin: 0rem;
+   height: 100%;
+   width: 100%;
+   margin-left:0 ;margin-right:0 ;
+    background-color: black;
+    font-family: 'Kanit', sans-serif;
+    overflow: hidden;
+    display:flex;
+    flex-direction: column;
+    color: white;
+ 
+   
+    
+    
+}
+.mycontainer{
+    flex: 10;
+display: flex;
+ overflow: hidden;
+
+}
+
+.nav-bar{
+    flex: 2.5;
+    background-color: black;
+    overflow: scroll;
+    
+}
+
+.nav1{
+    border-bottom: 0.5px solid gray;
+}
+.main-content{
+    flex: 7.5;
+    background: linear-gradient(180deg, rgba(32,32,32,1) 39%, rgba(32,32,32,1) 87%, rgba(255,255,255,1) 100%);
+    color: white;
+    overflow: scroll;
+    
+}
+
+.logo{
+    width: 50%;
+    height: 5vh;
+    margin-left: 50px;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-text{
+    text-decoration: none;
+    font-size: 19px;
+    padding: 8px;
+    align-items: ;
+    background-color: transparent;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    margin: 5px;
+   
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.nav-text:hover{
+    background: #282828;
+    color: greenyellow;
+}
+.episod{
+    background: #004638;
+    border-radius: 5px;
+
+}
+#btns{
+    width: 10vw;
+    height: 8vh;
+    border-radius: 35px;
+    background-color: black;
+}
+.photo{
+    border-radius: 50%;
+    height:5vh;
+    width: 3vw;
+}
+.app{
+    width: 80%;
+   margin-left: 20px;
+    height: 100vh;
+    border: none;
+    font-size: 25px;
+    border-radius: 5px;
+    color: aliceblue;
+    background: black;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px;
+    font-style: bold;
+}
+.my1list{
+    margin:50px;
+}
+
+.mylist{
+    margin-top: 15px;
+    width: 20vw;
+   
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+font-weight: 600;
+background: #303030;
+
+}
+.my1list>div>a{
+   color: #B3B3B3;
+
+}
+.mycard{
+    padding: 15px;
+   
+    border: 1px solid white;
+    background: #181818;
+
+}
+p{
+    color: #B3B3B3;
+
+}
+.music-player{
+
+
+    width: 100%;
+    height: 12vh;
+    display: flex;
+    bottom: 0;
+border: none ;
+background: #181818;
+position: fixed;
+color: white;
+
+
+
+}
+.shuffle{
+    border: none;
+    
+}
+
+
+
+
+.music-player>div>h6{
+    padding-top: 5px; 
+       padding-left: 10px;
+
+}
+.device{
+    width: 100%;
+    
+    bottom: 0;
+    justify-content: baseline;
+    position: fixed;
+}
